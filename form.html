@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="main">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>MyTube</title>
+</head>
+<body>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="./page/collection-1.html">Collection 1</a>
+      <a href="./page/collection-2.html">Collection 2</a>
+      <a href="./page/collection-3.html">Collection 3</a>
+      <a href="./form.html">New Video</a>
+    </nav>
+    <br><br>
+    <div id="adjuster">      
+<form id="mainFormCollection" draggable="true">
+  <label for="videoTitle" hidden><h1>Add New Video</h1></label>
+  <label for="videoTitle"hidden><h2>Video Title</h2></label>
+  <input type="text" placeholder="Input Value" id="videoTitle" name="videoTitle" aria-colcount="40px">
+  <br>
+  <label for="ta" hidden><h2> Description </h2></label>
+  <textarea id="ta" name="ta" placeholder="Text area content" rows="10px" cols="60px"></textarea><br>
+  <label for="myfile"hidden><h2>Video</h2></label>
+  <input type="file" id="myfile" name="myfile"></input>
+  <br>
+  <label for="collection">Choose Collection</label><select id="collection">
+  <option value="Collection 1">Collection 1</option>
+  <option value="Collection 2">Collection 2</option>
+  <option value="Collection 3">Collection 3</option>
+  </select><br><br>
+  <input type="radio" id="html" name="fav_language" value="Public">
+  <label for="Public" style="text-align: center;">Public</label>
+  <input type="radio" id="css" name="fav_language" value="Private">
+  <label for="Private" style="text-align: center;">Private</label>
+  <br>
+  <br>
+  <input type="submit" formmethod="post" value="Upload Video(s)"></input>
+  <br>
+  <br>  
+
+
+<footer>
+<h1> &copy: Copyright</h1>
+</footer>
+</form>
+</div> 
+
+</body>
+</html>

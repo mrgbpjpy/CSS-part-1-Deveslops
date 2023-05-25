@@ -1,0 +1,54 @@
+nav, footer{
+    display: flex;
+    justify-content: center; 
+
+}
+#mainCollection{
+    display: flex;
+    justify-content: space-around; 
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#table, .table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+#even, .even{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+#iframe{
+    border-radius: 500px;
+}
+#adjuster{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    
+    /* flex-direction: column; */
+}
+#mainFormCollection{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#mainVideoCollection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+body{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 20px;
+}
